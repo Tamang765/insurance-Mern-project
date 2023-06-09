@@ -1,0 +1,36 @@
+.header{
+    .new{
+        position:relative;
+    }
+    .new::after{
+        content: "News";
+        position: absolute;
+        width: 2.5rem;
+        height: 2.7vh;
+        background: lightblue;
+        top: -31px;
+        color: red;
+        font-size:12px;
+        text-align: center;
+    }
+    @media (max-width:999px) {
+        .toggle-section{
+            width: 100%;
+            margin: 0;
+            justify-content: space-between;
+        }
+        .contact-number,hr{
+            display: none;
+        }
+        .collapsebar{
+            width: 100%;
+            background-color: white;
+        }
+        .login{
+            margin-bottom: 2rem;
+        }
+        .header-navigation{
+            padding-inline: 0;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.slider-section{
+    .slider-content{
+        // .left-content{
+        //     background-image: url("/media/header/leftside.jpg");
+        //     height: 85vh;
+        //     background-repeat: no-repeat;
+        // }
+        .right-content::before{
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 100%;   
+            background-image: -webkit-linear-gradient(0deg, #f3f6f8 0%, rgba(243, 246, 248, 0) 100%);
+
+        }
+
+
+    }
+    
+}
